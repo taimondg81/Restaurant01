@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#our_cafe .container_ourcafe {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    /*border: 1px solid black;*/
+}
+
+#our_cafe .container_ourcafe .texto_ourcafe {
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    /*border: 1px solid black;*/
+}
+
+#our_cafe .container_ourcafe .container_contenedores {
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+
+    /*border: 1px solid black;*/
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+    #our_cafe .container_ourcafe .container_contenedores .container_imatext {
+        width: 100%;
+        /*flex: 0 1 100%;*/
+        overflow: hidden;
+        margin: 10px;
+    }
+
+#our_cafe .container_ourcafe .container_contenedores .container_imatext img {
+    width: 100%;
+}
+
+
+/********** @Media Queries our caffe**********/
+
+@media screen and (min-width:767px) {
+    
+    #our_cafe .container_ourcafe .texto_ourcafe {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #our_cafe .container_ourcafe .container_contenedores .container_imatext {
+        width: 30%;
+    }
+
+    #our_cafe .container_ourcafe .container_contenedores .container_imatext h3 {
+        font-size: 14px;
+    }
+
+    #our_cafe .container_ourcafe .container_contenedores .container_imatext p {
+        font-size: 12px;
+    }
+
+    #our_cafe .container_ourcafe .container_contenedores .container_imatext img {
+        width: 100%;
+        height: 220px;
+    }
+}
+
+/********** @Media Queriesour ourcafe**********/
+
+@media screen and (min-width:1024px) {
+    #our_cafe .container_ourcafe .container_contenedores {
+        justify-content: space-between;
+    }
+
+    #our_cafe .container_ourcafe .container_contenedores .container_imatext {
+        border: 1px solid black;
+        border-radius: 4px;
+        overflow: hidden;
+    }
+
+    #our_cafe .container_ourcafe .container_contenedores .container_imatext h3 {
+        font-size: 16px;
+    }
+
+    #our_cafe .container_ourcafe .container_contenedores .container_imatext p {
+        font-size: 14px;
+    }
+
+    
+    #our_cafe .container_ourcafe .container_contenedores .container_imatext img {
+        overflow: hidden;
+    }
+
+    
+
+    #our_cafe .container_ourcafe .container_contenedores {
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media screen and (min-width:1080px) {
+    .container_ourcafe {
+        margin-top: 80px;
+        
+    }
+
+    #our_cafe .container_ourcafe {
+        margin-bottom: 80px;
+        border: none;
+    }
+
+    #our_cafe .container_ourcafe .texto_ourcafe h3 {
+        width: 60%;
+        font-size: 30px;
+        color: #000;
+        /* border: 1px solid #000; */
+        margin-left: auto;
+        margin-right: auto;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    #our_cafe .container_ourcafe .texto_ourcafe p {
+        width: 90%;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000;
+        line-height: 32px;
+        margin-left: auto;
+        /* border: 1px solid #000; */
+        margin-top: 10px;
+        margin-right: auto;
+        text-align: center;
+    }
+
+
+    #our_cafe .container_ourcafe .container_contenedores {
+        width: 90%;
+        /*height: 600px;*/
+        border: none;
+    }
+
+    #our_cafe .container_ourcafe .container_contenedores .container_imatext {
+        width: 28%;
+
+        border-radius: 5px;
+    }
+
+    #our_cafe .container_ourcafe .container_contenedores .container_imatext h3 {
+        margin-top: 5%;
+    }
+
+
+    #our_cafe .container_ourcafe .container_contenedores .container_imatext img {
+        height: 320px;
+    }
+
+
+} 
+
+
+
