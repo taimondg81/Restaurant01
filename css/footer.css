@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.copiright {
+    margin-bottom: 0;
+}
+
+.coporight_container {
+    width: 100%;
+    /*height: 70px;*/
+    border: 1px solid black;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #000;
+    margin-bottom: 0;
+}
+
+.informationweb {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    /*line-height: 70px;*/
+    color: #fff;
+}
