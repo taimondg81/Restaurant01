@@ -1,0 +1,500 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#our_food .container_ourfood {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    background-color: #4f2c1d;
+    color: #fff;
+
+    border: 1px solid black;
+}
+
+#our_food .container_ourfood .container_texto_ourcafe {
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    
+}
+
+#our_food .container_ourfood .imagen_big {
+    width: 98%;
+    height: 250px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+    #our_food .container_ourfood .imagen_big img {
+        width: 100%;
+        height: 100%;
+        
+    }
+
+#our_food .container_ourfood .mini_container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    
+    /*border: 1px solid black;*/
+}
+
+#our_food .container_ourfood .mini_container .mini_contai1, .mini_contai2, .mini_contai3, .mini_contai4 {
+    width: 98%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /*border: 1px solid black;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+        #our_food .container_ourfood .mini_container .imagen .golo {
+            transform: scale(0);
+        }
+
+        #our_food .container_ourfood .mini_container .imagen img {
+            width: 100%;
+            height: 100%;
+        }
+
+    #our_food .container_ourfood .mini_container .imagen {
+        width: 98%;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #our_food .container_ourfood .mini_container .texto_imagen1 {
+        width: 98%;
+        height: 250px;
+    }
+
+        #our_food .container_ourfood .mini_container .texto_imagen1 h3 {
+            margin-top: 15%;
+            margin-bottom: 20px;
+        }
+
+        #our_food .container_ourfood .mini_container .texto_imagen2 h3 {
+            margin-top: 2%;
+        }
+
+        #our_food .container_ourfood .mini_container .texto_imagen3 h3 {
+            margin-top: 10%;
+            margin-bottom: 20px;
+        }
+
+        #our_food .container_ourfood .mini_container .texto_imagen4 h3 {
+            margin-top: 10%;
+            margin-bottom: 20px;
+        }
+  
+
+    #our_food .container_ourfood .mini_container .texto_imagen2 {
+        width: 98%;
+        height: 250px;
+    }
+
+    #our_food .container_ourfood .mini_container .texto_imagen3 {
+        width: 98%;
+        height: 250px;
+    }
+
+    #our_food .container_ourfood .mini_container .texto_imagen4 {
+        width: 98%;
+        height: 250px;
+    }
+
+
+   
+
+
+/********** @Media Queries our food**********/
+
+@media screen and (min-width:767px) {
+
+    #our_food .container_ourfood .container_texto_ourcafe {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+        margin-top: 60px;
+    }
+
+    #our_food .container_ourfood .imagen_big {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+        
+    #our_food .container_ourfood .mini_container .mini_contai1 {
+        width: 90%;
+        height: 200px;
+        display: flex;
+        border: 1px solid #000;
+        overflow: hidden;
+        object-fit: contain;
+    }
+
+
+    #our_food .container_ourfood .mini_container .mini_contai2 {
+        width: 90%;
+        height: 200px;
+        display: flex;
+        border: 1px solid #000;
+        overflow: hidden;
+    }
+
+    #our_food .container_ourfood .mini_container .mini_contai3 {
+        width: 90%;
+        height: 200px;
+        display: flex;
+        border: 1px solid #000;
+        overflow: hidden;
+    }
+
+    #our_food .container_ourfood .mini_container .mini_contai4 {
+        width: 90%;
+        height: 200px;
+        display: flex;
+        border: 1px solid #000;
+        margin-bottom: 60px;
+        overflow: hidden;
+    }
+
+        #our_food .container_ourfood .mini_container .mini_contai2, .mini_contai4 {
+            flex-direction: row-reverse;
+        }
+
+    #our_food .container_ourfood .mini_container .mini_contai1 .imagen {
+        width: 50%;
+        height: 200px;
+        object-fit: contain;
+        overflow: hidden;
+    }
+
+    #our_food .container_ourfood .mini_container .mini_contai2 .imagen {
+        width: 50%;
+        height: 200px;
+        object-fit: contain;
+        overflow: hidden;
+    }
+
+    #our_food .container_ourfood .mini_container .mini_contai3 .imagen {
+        width: 50%;
+        height: 200px;
+        object-fit: contain;
+        overflow: hidden;
+    }
+
+    #our_food .container_ourfood .mini_container .mini_contai4 .imagen {
+        width: 50%;
+        height: 200px;
+        object-fit: contain;
+        overflow: hidden;
+    }
+
+    #our_food .container_ourfood .mini_container .mini_contai4 .imagen img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #our_food .container_ourfood .mini_container .mini_contai1 .texto_imagen1 {
+        width: 50%;
+        height: 200px;
+        font-size: 14px;
+    }
+
+    #our_food .container_ourfood .mini_container .mini_contai1 .texto_imagen1 h3 {
+        margin-top: 10%;
+        margin-bottom: 20px;
+    }
+    
+
+    #our_food .container_ourfood .mini_container .mini_contai2 .texto_imagen2 {
+        width: 50%;
+        height: 200px;
+        font-size: 14px;
+    }
+
+    #our_food .container_ourfood .mini_container .mini_contai3 .texto_imagen3 {
+        width: 50%;
+        height: 200px;
+        font-size: 14px;
+    }
+
+    #our_food .container_ourfood .mini_container .mini_contai4 .texto_imagen4 {
+        width: 50%;
+        height: 200px;
+        font-size: 14px;
+    }
+
+
+    #our_food .container_ourfood .mini_container .texto_imagen1 h3 {
+        margin-top: 50px;
+    }
+
+    #our_food .container_ourfood .mini_container .texto_imagen2 h3 {
+        margin-top: 4%;
+    }
+
+    #our_food .container_ourfood .mini_container .texto_imagen3 h3 {
+        margin-top: 30px;
+    }
+
+    #our_food .container_ourfood .mini_container .texto_imagen4 h3 {
+        margin-top: 30px;
+    }
+}
+
+
+@media screen and (min-width:1024px) {
+
+    #our_food .container_ourfood .mini_container .mini_contai1 {
+        width: 90%;
+        height: 300px;
+        display: flex;
+        border: 1px solid #000;
+        overflow: hidden;
+    }
+
+    #our_food .container_ourfood .mini_container .mini_contai2 {
+        width: 90%;
+        height: 300px;
+        display: flex;
+        border: 1px solid #000;
+        overflow: hidden;
+    }
+
+    #our_food .container_ourfood .mini_container .mini_contai3 {
+        width: 90%;
+        height: 300px;
+        display: flex;
+        border: 1px solid #000;
+        overflow: hidden;
+    }
+
+    #our_food .container_ourfood .mini_container .mini_contai4 {
+        width: 90%;
+        height: 300px;
+        display: flex;
+        border: 1px solid #000;
+        overflow: hidden;
+    }
+
+        #our_food .container_ourfood .mini_container .mini_contai2, .mini_contai4 {
+            flex-direction: row-reverse;
+        }
+
+    #our_food .container_ourfood .mini_container .mini_contai1 .imagen {
+        width: 50%;
+        height: 300px;
+        /*height: 300px;*/
+        object-fit: contain;
+    }
+
+    #our_food .container_ourfood .mini_container .mini_contai2 .imagen {
+        width: 50%;
+        height: 300px;
+        object-fit: contain;
+    }
+
+    #our_food .container_ourfood .mini_container .mini_contai3 .imagen {
+        width: 50%;
+        height: 300px;
+        object-fit: contain;
+    }
+
+    #our_food .container_ourfood .mini_container .mini_contai4 .imagen {
+        width: 50%;
+        height: 300px;
+        object-fit: contain;
+    }
+
+    
+
+    #our_food .container_ourfood .mini_container .mini_contai1 .texto_imagen1 {
+        width: 50%;
+        height: 300px;
+        /*border: 1px solid #000;*/
+    }
+
+        #our_food .container_ourfood .mini_container .mini_contai1 .texto_imagen1 h3 {
+            width: 60%;
+            margin-top: 15%;
+            margin-bottom: 20px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #our_food .container_ourfood .mini_container .mini_contai1 .texto_imagen1 p {
+            width: 60%;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: justify;
+        }
+
+        #our_food .container_ourfood .mini_container .mini_contai2 .texto_imagen2 h3 {
+        margin-top: 10%;
+        margin-bottom: 20px;
+    }
+
+        #our_food .container_ourfood .mini_container .mini_contai2 .texto_imagen2 p {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: justify;
+        }
+
+
+        #our_food .container_ourfood .mini_container .mini_contai3 .texto_imagen3 h3 {
+        width: 70%;
+        margin-top: 15%;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #our_food .container_ourfood .mini_container .mini_contai3 .texto_imagen3 p {
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: justify;
+        }
+
+
+        #our_food .container_ourfood .mini_container .mini_contai4 .texto_imagen4 h3 {
+        margin-top: 15%;
+        margin-bottom: 20px;
+    }
+
+        #our_food .container_ourfood .mini_container .mini_contai4 .texto_imagen4 p {
+            width: 60%;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: justify;
+        }
+
+
+}
+
+@media screen and (min-width:1080px) {
+
+    #our_food .container_ourfood .mini_container .mini_contai1, .mini_contai2, .mini_contai3, .mini_contai4 {
+        width: 90%;
+        height: 300px;
+        display: flex;
+    }
+
+        #our_food .container_ourfood .mini_container .mini_contai2, .mini_contai4 {
+            flex-direction: row-reverse;
+        }
+
+    #our_food .container_ourfood .mini_container .mini_contai1 .imagen {
+        width: 50%;
+        height: 300px;
+    }
+
+    #our_food .container_ourfood .mini_container .mini_contai1 .texto_imagen1, .texto_imagen2, .texto_imagen3, .texto_imagen4 {
+        width: 50%;
+        height: 300px;
+    }
+
+    #our_food .container_ourfood .container_texto_ourcafe {
+        width: 90%;
+        margin-top: 100px;
+    }
+
+        #our_food .container_ourfood .container_texto_ourcafe h3 {
+            font-size: 30px;
+            font-weight: 300;
+        }
+
+        #our_food .container_ourfood .container_texto_ourcafe p {
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+    
+    #our_food .container_ourfood .imagen_big {
+        height: 400px;
+    }
+
+    #our_food .container_ourfood .mini_container {
+        margin-bottom: 80px;
+    }
+
+    #our_food .container_ourfood .mini_container .imagen {
+        position: relative;
+        object-fit: cover;
+        overflow: hidden;
+    }
+
+    #our_food .container_ourfood .mini_container .imagen .golo {
+        font-size: 20px;
+        letter-spacing: 8PX;
+        z-index: 200;
+        position: absolute;
+        top: 43%;
+        left: 43%;
+        color: #95990e;
+        font-family: "Open Sans", Arial, Sans-serif;
+        border: 2px solid #FFF;
+        background: #000;
+        padding: 5px;
+        text-align: center;
+        /*border: 1px solid black;*/
+        transform: scale(0);
+        transition: all 300ms;
+        
+    }
+
+    #our_food .container_ourfood .mini_container .imagen:hover .golo {
+        transform: scale(1);
+    }
+
+    #our_food .container_ourfood .mini_container .imagen::before,
+    #our_food .container_ourfood .mini_container .imagen::after {
+        content: '';
+        width: 540px;
+        height: 410px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #000;
+        opacity: 0.6;
+        transition: all 300ms;
+        border: 3px solid #fff;
+    }
+
+    #our_food .container_ourfood .mini_container .imagen::before {
+        transform: rotate(45deg) translateY(-800px) translateX(20px);
+    }
+
+    #our_food .container_ourfood .mini_container .imagen::after {
+        transform: rotate(45deg) translateY(600px) translateX(-90px);
+    }
+
+    #our_food .container_ourfood .mini_container .imagen:hover::before {
+        transform: rotate(45deg) translateY(-290px) translateX(58px)
+    }
+
+    #our_food .container_ourfood .mini_container .imagen:hover::after {
+    transform: rotate(45deg) translateY(150px) translateX(-76px);
+    }
+
+
+    
+}

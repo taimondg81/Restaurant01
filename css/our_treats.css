@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#our_treats .container_ourtreats {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+#our_treats .container_ourtreats .container_texto_ourtreats {
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+}
+
+#our_treats .container_ourtreats .container_imagenes2 {
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+#our_treats .container_ourtreats .container_imagenes2 .foto {
+    width: 50%;
+    overflow: hidden;
+    /*border: 1px solid black;*/
+}
+
+#our_treats .container_ourtreats .container_imagenes2 img {
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+	transition: all 300ms;
+}
+
+/********** @Media Queriesour ourtreats**********/
+
+@media screen and (min-width:767px) {
+
+    #our_treats .container_ourtreats .container_texto_ourtreats p {
+        
+    }
+
+    #our_treats .container_ourtreats .container_texto_ourtreats {
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #our_treats .container_ourtreats .container_imagenes2 .foto {
+        width: 25%;
+    }
+}
+
+
+@media screen and (min-width:1024px) {
+    #our_treats .container_ourtreats .container_imagenes2 {
+        width: 100%;
+        margin: 0;
+    }
+
+    #our_treats .container_ourtreats {
+        margin-top: 60px;
+    }
+
+    #our_treats .container_ourtreats .container_texto_ourtreats {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width:1080px) {
+    #our_treats .container_ourtreats .container_texto_ourtreats {
+        margin-top: 80px;
+    }
+
+    #our_treats .container_ourtreats .container_texto_ourtreats h3 {
+        width: 60%;
+        font-size: 30px;
+        color: #000;
+        /* border: 1px solid #000; */
+        margin-left: auto;
+        margin-right: auto;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    #our_treats .container_ourtreats .container_texto_ourtreats p {
+        width: 80%;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000;
+        line-height: 32px;
+        margin-left: auto;
+        /* border: 1px solid #000; */
+        margin-top: 10px;
+        margin-right: auto;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    #our_treats .container_ourtreats .container_imagenes2 {
+        width: 100%;
+        height: 500px;
+    }
+
+
+    #our_treats .container_ourtreats .container_imagenes2 .foto {
+        width: 25%;
+        height: 250px;
+    }
+
+    #our_treats .container_ourtreats .container_imagenes2 .foto img:hover {
+        opacity: 1;
+	    -webkit-transition: all .3s ease;
+	    -o-transition: all .3s ease;
+        transition: all .3s ease;
+        transform: scale(1.5);
+        transition: all 300ms;
+
+    }
+}
+
+
