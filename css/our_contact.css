@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/**********formulario**********/
+
+#our_contact .container_ourcontact {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+#our_contact .container_ourcontact .container_ourcontacttext {
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+}
+
+#our_contact .container_ourcontact .container_ourcontacttext .redes_sociales2 .container-redes2 {
+    width: 35%;
+    margin-left: 35%;
+    margin-top: 15px;
+    
+    display: flex;
+}
+
+#our_contact .container_ourcontact .container_ourcontacttext .redes_sociales2 .container-redes2 a {
+    background: #000;
+    color: #95990e;
+    text-align: center;
+    width: 15%;
+    display: block;
+    padding: 5px 0;
+    font-size: 10px;
+    margin-right:  5%;
+    border-radius: 50%;
+}
+
+
+#our_contact .container_ourcontact .formulario {
+    width: 100%;
+    height: 100%;
+}
+
+#our_contact .container_ourcontact .formulario .container_formulario {
+    width: 100%;
+    height: 100%;
+    
+}
+
+#our_contact .container_ourcontact .formulario .container_formulario .for {
+    width: 90%;
+    /*height: 100%;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    /*padding: 1px;*/
+    /*border: 1px solid black;*/
+}
+
+    #our_contact .container_ourcontact .formulario .container_formulario .text_formulario {
+        margin-top: 20px;
+    }
+
+#our_contact .container_ourcontact .formulario .container_formulario .for input[type="text"],
+#our_contact .container_ourcontact .formulario .container_formulario .for input[type="email"],
+#our_contact .container_ourcontact .formulario .container_formulario .for textarea {
+    width: 100%;
+    
+    min-width: 100%;
+    max-width: 90%;
+    min-height: 40px;
+    max-height: 150px;
+    margin-bottom: 15px;
+}
+
+    #our_contact .container_ourcontact .formulario .container_formulario .for textarea {
+    width: 100%;
+    height: 100px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 200px;
+    max-height: 450px;
+    margin-bottom: 20px;
+    }
+
+#our_contact .container_ourcontact .formulario .container_formulario .boton {
+    width: 50%;
+    border-radius: 2px;
+    background-color: #95990e;
+    margin-left: 25%;
+    padding: 15px;
+}
+
+
+
+/**********mapa**********/
+
+
+#our_contact .container_ourcontact .container_Map {
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+#our_contact .container_ourcontact .container_Map .container_ubicacion {
+    width: 100%;
+    /*border: 1px solid black;*/
+}
+
+#our_contact .container_ourcontact .container_Map .horario {
+    width: 100%;
+}
+
+/********** @Media Queriesour ourteam**********/
+
+@media screen and (min-width:767px) {
+    #our_contact .container_ourcontact .container_ourcontacttext {
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #our_contact .container_ourcontact .container_ourcontacttext .redes_sociales2 .container-redes2 {
+        width: 31%;
+        margin-left: 38%;
+        margin-top: 15px;
+    
+        display: flex;
+    }
+    
+    #our_contact .container_ourcontact .container_ourcontacttext .redes_sociales2 .container-redes2 a {
+        background: #000;
+        color: #95990e;
+        text-align: center;
+        width: 15%;
+        display: block;
+        /*padding: 5px 0;*/
+        font-size: 15px;
+        margin-right:  5%;
+        border-radius: 50%;
+    }
+
+
+
+    #our_contact .container_ourcontact .container_Map .map {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+@media screen and (min-width:1024px) {
+
+    #our_contact .container_ourcontact {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px;
+    }
+
+
+    #our_contact .container_ourcontact .formulario {
+        margin: 10px;
+    }
+
+
+    #our_contact .container_ourcontact .container_ourcontacttext {
+        width: 90%;        
+    }
+
+    #our_contact .container_ourcontact .container_ourcontacttext p {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 32px;
+        font-size: 16px;
+    }
+
+    #our_contact .container_ourcontact .formulario {
+        width: 45%;
+        height: 580px;
+        border: 1px solid #000;
+    }
+
+        #our_contact .container_ourcontact .formulario .container_formulario .text_formulario {
+            margin-top: 10%;
+            margin-bottom: 5%;
+        }
+
+    #our_contact .container_ourcontact .container_Map {
+        width: 45%;
+        border: 1px solid #000;
+    }
+
+    #our_contact .container_ourcontact .container_Map .map {
+        margin-bottom: 17px;
+    }
+
+    #our_contact .container_ourcontact .formulario .container_formulario .for {
+        margin-top: 10%;
+        
+    }
+
+    #our_contact .container_ourcontact .container_Map .container_ubicacion p {
+        font-size: 14px;
+    }
+
+    #our_contact .container_ourcontact .container_ourcontacttext .redes_sociales2 .container-redes2 {
+        width: 35%;
+        margin-left: 35%;
+        margin-top: 15px;
+        
+        display: flex;
+    }
+    
+    #our_contact .container_ourcontact .container_ourcontacttext .redes_sociales2 .container-redes2 a {
+        background: #000;
+        color: #95990e;
+        text-align: center;
+        width: 15%;
+        display: block;
+        padding: 5px 0;
+        font-size: 18px;
+        margin-right:  5%;
+        border-radius: 50%;
+    }
+}
+
+@media screen and (min-width:1100px) {
+
+    #our_contact .container_ourcontact .container_ourcontacttext .redes_sociales2 .container-redes2 {
+        width: 32%;
+        margin-left: 41%;
+        margin-top: 15px;
+        
+        display: flex;
+    }
+    
+    #our_contact .container_ourcontact .container_ourcontacttext .redes_sociales2 .container-redes2 a {
+        background: #000;
+        color: #95990e;
+        text-align: center;
+        width: 10%;
+        display: block;
+        padding: 5px 0;
+        font-size: 16px;
+        margin-right:  5%;
+        border-radius: 50%;
+    }
+}
